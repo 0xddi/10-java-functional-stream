@@ -4,11 +4,11 @@
 
 ## Список задач
 
-* [Задание 01 ternaryOperator](task01/README.md) — 2/20
-* [Задание 02 Gray Code](task02/README.md) — 4/20
-* [Задание 03 minMaxConsumer](task03/README.md) — 2/20
-* [Задание 04 Топ10](task04/README.md) — 5/20
-* [Задание 05 MailService](task05/README.md) — 7/20
+* [Задание 01 ternaryOperator](task01/README.md)
+* [Задание 02 Gray Code](task02/README.md)
+* [Задание 03 minMaxConsumer](task03/README.md)
+* [Задание 04 Топ10](task04/README.md)
+* [Задание 05 MailService](task05/README.md)
 
 ## Сборка и запуск тестов
 
