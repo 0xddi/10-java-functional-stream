@@ -1,6 +1,7 @@
 package com.example.task01;
 
 import java.io.IOException;
+import java.util.Objects;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -23,7 +24,11 @@ public class Task01Main {
             Function<? super T, ? extends U> ifTrue,
             Function<? super T, ? extends U> ifFalse) {
 
-        return null; // your implementation here
+        Objects.requireNonNull(condition);
+        Objects.requireNonNull(ifTrue);
+        Objects.requireNonNull(ifFalse);
+
+        return t -> condition.test(t) ? ifTrue.apply(t) : ifFalse.apply(t);
 
     }
 }
