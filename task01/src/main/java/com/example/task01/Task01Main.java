@@ -10,12 +10,12 @@ public class Task01Main {
 
         // TODO С корректно реализованным методом ternaryOperator должен компилироваться и успешно работать следующий код:
 
-        /*
+
         Predicate<Object> condition = Objects::isNull;
         Function<Object, Integer> ifTrue = obj -> 0;
         Function<CharSequence, Integer> ifFalse = CharSequence::length;
         Function<String, Integer> safeStringLength = ternaryOperator(condition, ifTrue, ifFalse);
-        */
+
 
     }
 
